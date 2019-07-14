@@ -19,5 +19,11 @@ class EncryptorTest {
 	
 	// Exercise: decrypt this sentence: Nkxg"nqpi"cpf"rtqurgt#
 	
+	@Test
+	void testDecryptSentence() throws Exception {
+		assertEquals("Live long and prosper!", Encryptor.decrypt("Nkxg\"nqpi\"cpf\"rtqurgt#"));
+		
+	}
+	
 	
 }
